@@ -41,10 +41,10 @@ function! base64#v(fn)
 endfunction
 
 function! base64#v_atob()
-	call base64#v("decode")
+	call base64#v("encode")
 endfunction
 
 function! base64#v_btoa()
-	call base64#v("encode")
+	call base64#v("decode")
 endfunction
 
